@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95AE98E1AC25C8800E95EA3 /* AHIImagesToGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE9871AC25C8800E95EA3 /* AHIImagesToGIF.m */; };
+		E95AE98F1AC25C8800E95EA3 /* GifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE9891AC25C8800E95EA3 /* GifViewController.m */; };
+		E95AE9901AC25C8800E95EA3 /* XGMakeVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE98B1AC25C8800E95EA3 /* XGMakeVideoController.m */; };
+		E95AE9911AC25C8800E95EA3 /* XGOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE98D1AC25C8800E95EA3 /* XGOperation.m */; };
+		E95AE9951AC25E4F00E95EA3 /* MBProgressHUD+XG.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE9941AC25E4F00E95EA3 /* MBProgressHUD+XG.m */; };
+		E95AE9971AC25E6400E95EA3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95AE9961AC25E6400E95EA3 /* MBProgressHUD.bundle */; };
+		E95AE99A1AC25E7F00E95EA3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AE9991AC25E7F00E95EA3 /* MBProgressHUD.m */; };
+		E9D4531B1ABBF43D00A906C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4531A1ABBF43D00A906C8 /* main.m */; };
+		E9D4531E1ABBF43D00A906C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4531D1ABBF43D00A906C8 /* AppDelegate.m */; };
+		E9D453211ABBF43D00A906C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D453201ABBF43D00A906C8 /* ViewController.m */; };
+		E9D453241ABBF43D00A906C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D453221ABBF43D00A906C8 /* Main.storyboard */; };
+		E9D453261ABBF43D00A906C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D453251ABBF43D00A906C8 /* Images.xcassets */; };
+		E9D453291ABBF43D00A906C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D453271ABBF43D00A906C8 /* LaunchScreen.xib */; };
+		E9D453351ABBF43E00A906C8 /* XGVideoToGIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D453341ABBF43E00A906C8 /* XGVideoToGIFTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D4532F1ABBF43E00A906C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D4530D1ABBF43D00A906C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D453141ABBF43D00A906C8;
+			remoteInfo = XGVideoToGIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E95AE9861AC25C8800E95EA3 /* AHIImagesToGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHIImagesToGIF.h; sourceTree = "<group>"; };
+		E95AE9871AC25C8800E95EA3 /* AHIImagesToGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHIImagesToGIF.m; sourceTree = "<group>"; };
+		E95AE9881AC25C8800E95EA3 /* GifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifViewController.h; sourceTree = "<group>"; };
+		E95AE9891AC25C8800E95EA3 /* GifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifViewController.m; sourceTree = "<group>"; };
+		E95AE98A1AC25C8800E95EA3 /* XGMakeVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGMakeVideoController.h; sourceTree = "<group>"; };
+		E95AE98B1AC25C8800E95EA3 /* XGMakeVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGMakeVideoController.m; sourceTree = "<group>"; };
+		E95AE98C1AC25C8800E95EA3 /* XGOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGOperation.h; sourceTree = "<group>"; };
+		E95AE98D1AC25C8800E95EA3 /* XGOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGOperation.m; sourceTree = "<group>"; };
+		E95AE9931AC25E4F00E95EA3 /* MBProgressHUD+XG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XG.h"; sourceTree = "<group>"; };
+		E95AE9941AC25E4F00E95EA3 /* MBProgressHUD+XG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XG.m"; sourceTree = "<group>"; };
+		E95AE9961AC25E6400E95EA3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E95AE9981AC25E7F00E95EA3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E95AE9991AC25E7F00E95EA3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E9D453151ABBF43D00A906C8 /* XGVideoToGIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGVideoToGIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D453191ABBF43D00A906C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D4531A1ABBF43D00A906C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D4531C1ABBF43D00A906C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D4531D1ABBF43D00A906C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9D4531F1ABBF43D00A906C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9D453201ABBF43D00A906C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9D453231ABBF43D00A906C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D453251ABBF43D00A906C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9D453281ABBF43D00A906C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9D4532E1ABBF43E00A906C8 /* XGVideoToGIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGVideoToGIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D453331ABBF43E00A906C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D453341ABBF43E00A906C8 /* XGVideoToGIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGVideoToGIFTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D453121ABBF43D00A906C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4532B1ABBF43E00A906C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95AE9851AC25C8800E95EA3 /* makeVideoAndGIF */ = {
+			isa = PBXGroup;
+			children = (
+				E95AE9861AC25C8800E95EA3 /* AHIImagesToGIF.h */,
+				E95AE9871AC25C8800E95EA3 /* AHIImagesToGIF.m */,
+				E95AE9881AC25C8800E95EA3 /* GifViewController.h */,
+				E95AE9891AC25C8800E95EA3 /* GifViewController.m */,
+				E95AE98A1AC25C8800E95EA3 /* XGMakeVideoController.h */,
+				E95AE98B1AC25C8800E95EA3 /* XGMakeVideoController.m */,
+				E95AE98C1AC25C8800E95EA3 /* XGOperation.h */,
+				E95AE98D1AC25C8800E95EA3 /* XGOperation.m */,
+			);
+			path = makeVideoAndGIF;
+			sourceTree = "<group>";
+		};
+		E95AE9921AC25E3600E95EA3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E95AE9981AC25E7F00E95EA3 /* MBProgressHUD.h */,
+				E95AE9991AC25E7F00E95EA3 /* MBProgressHUD.m */,
+				E95AE9961AC25E6400E95EA3 /* MBProgressHUD.bundle */,
+				E95AE9931AC25E4F00E95EA3 /* MBProgressHUD+XG.h */,
+				E95AE9941AC25E4F00E95EA3 /* MBProgressHUD+XG.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E9D4530C1ABBF43D00A906C8 = {
+			isa = PBXGroup;
+			children = (
+				E9D453171ABBF43D00A906C8 /* XGVideoToGIF */,
+				E9D453311ABBF43E00A906C8 /* XGVideoToGIFTests */,
+				E9D453161ABBF43D00A906C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D453161ABBF43D00A906C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D453151ABBF43D00A906C8 /* XGVideoToGIF.app */,
+				E9D4532E1ABBF43E00A906C8 /* XGVideoToGIFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D453171ABBF43D00A906C8 /* XGVideoToGIF */ = {
+			isa = PBXGroup;
+			children = (
+				E9D4531C1ABBF43D00A906C8 /* AppDelegate.h */,
+				E9D4531D1ABBF43D00A906C8 /* AppDelegate.m */,
+				E9D4531F1ABBF43D00A906C8 /* ViewController.h */,
+				E9D453201ABBF43D00A906C8 /* ViewController.m */,
+				E95AE9851AC25C8800E95EA3 /* makeVideoAndGIF */,
+				E95AE9921AC25E3600E95EA3 /* lib */,
+				E9D453221ABBF43D00A906C8 /* Main.storyboard */,
+				E9D453251ABBF43D00A906C8 /* Images.xcassets */,
+				E9D453271ABBF43D00A906C8 /* LaunchScreen.xib */,
+				E9D453181ABBF43D00A906C8 /* Supporting Files */,
+			);
+			path = XGVideoToGIF;
+			sourceTree = "<group>";
+		};
+		E9D453181ABBF43D00A906C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D453191ABBF43D00A906C8 /* Info.plist */,
+				E9D4531A1ABBF43D00A906C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D453311ABBF43E00A906C8 /* XGVideoToGIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D453341ABBF43E00A906C8 /* XGVideoToGIFTests.m */,
+				E9D453321ABBF43E00A906C8 /* Supporting Files */,
+			);
+			path = XGVideoToGIFTests;
+			sourceTree = "<group>";
+		};
+		E9D453321ABBF43E00A906C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D453331ABBF43E00A906C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D453141ABBF43D00A906C8 /* XGVideoToGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D453381ABBF43E00A906C8 /* Build configuration list for PBXNativeTarget "XGVideoToGIF" */;
+			buildPhases = (
+				E9D453111ABBF43D00A906C8 /* Sources */,
+				E9D453121ABBF43D00A906C8 /* Frameworks */,
+				E9D453131ABBF43D00A906C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XGVideoToGIF;
+			productName = XGVideoToGIF;
+			productReference = E9D453151ABBF43D00A906C8 /* XGVideoToGIF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D4532D1ABBF43E00A906C8 /* XGVideoToGIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D4533B1ABBF43E00A906C8 /* Build configuration list for PBXNativeTarget "XGVideoToGIFTests" */;
+			buildPhases = (
+				E9D4532A1ABBF43E00A906C8 /* Sources */,
+				E9D4532B1ABBF43E00A906C8 /* Frameworks */,
+				E9D4532C1ABBF43E00A906C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D453301ABBF43E00A906C8 /* PBXTargetDependency */,
+			);
+			name = XGVideoToGIFTests;
+			productName = XGVideoToGIFTests;
+			productReference = E9D4532E1ABBF43E00A906C8 /* XGVideoToGIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D4530D1ABBF43D00A906C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "赵小嘎";
+				TargetAttributes = {
+					E9D453141ABBF43D00A906C8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 87UVHY3HV5;
+					};
+					E9D4532D1ABBF43E00A906C8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E9D453141ABBF43D00A906C8;
+					};
+				};
+			};
+			buildConfigurationList = E9D453101ABBF43D00A906C8 /* Build configuration list for PBXProject "XGVideoToGIF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D4530C1ABBF43D00A906C8;
+			productRefGroup = E9D453161ABBF43D00A906C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D453141ABBF43D00A906C8 /* XGVideoToGIF */,
+				E9D4532D1ABBF43E00A906C8 /* XGVideoToGIFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D453131ABBF43D00A906C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D453241ABBF43D00A906C8 /* Main.storyboard in Resources */,
+				E95AE9971AC25E6400E95EA3 /* MBProgressHUD.bundle in Resources */,
+				E9D453291ABBF43D00A906C8 /* LaunchScreen.xib in Resources */,
+				E9D453261ABBF43D00A906C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4532C1ABBF43E00A906C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D453111ABBF43D00A906C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95AE9901AC25C8800E95EA3 /* XGMakeVideoController.m in Sources */,
+				E95AE98F1AC25C8800E95EA3 /* GifViewController.m in Sources */,
+				E95AE98E1AC25C8800E95EA3 /* AHIImagesToGIF.m in Sources */,
+				E9D453211ABBF43D00A906C8 /* ViewController.m in Sources */,
+				E95AE99A1AC25E7F00E95EA3 /* MBProgressHUD.m in Sources */,
+				E95AE9951AC25E4F00E95EA3 /* MBProgressHUD+XG.m in Sources */,
+				E9D4531E1ABBF43D00A906C8 /* AppDelegate.m in Sources */,
+				E9D4531B1ABBF43D00A906C8 /* main.m in Sources */,
+				E95AE9911AC25C8800E95EA3 /* XGOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4532A1ABBF43E00A906C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D453351ABBF43E00A906C8 /* XGVideoToGIFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D453301ABBF43E00A906C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D453141ABBF43D00A906C8 /* XGVideoToGIF */;
+			targetProxy = E9D4532F1ABBF43E00A906C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D453221ABBF43D00A906C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D453231ABBF43D00A906C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D453271ABBF43D00A906C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D453281ABBF43D00A906C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D453361ABBF43E00A906C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D453371ABBF43E00A906C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D453391ABBF43E00A906C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				INFOPLIST_FILE = XGVideoToGIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+			};
+			name = Debug;
+		};
+		E9D4533A1ABBF43E00A906C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				INFOPLIST_FILE = XGVideoToGIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+			};
+			name = Release;
+		};
+		E9D4533C1ABBF43E00A906C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XGVideoToGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGVideoToGIF.app/XGVideoToGIF";
+			};
+			name = Debug;
+		};
+		E9D4533D1ABBF43E00A906C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoying wei (73SNWQ3DEU)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XGVideoToGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35271f4b-c1e0-4b49-87cf-3f2cd09eede9";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XGVideoToGIF.app/XGVideoToGIF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D453101ABBF43D00A906C8 /* Build configuration list for PBXProject "XGVideoToGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D453361ABBF43E00A906C8 /* Debug */,
+				E9D453371ABBF43E00A906C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D453381ABBF43E00A906C8 /* Build configuration list for PBXNativeTarget "XGVideoToGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D453391ABBF43E00A906C8 /* Debug */,
+				E9D4533A1ABBF43E00A906C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D4533B1ABBF43E00A906C8 /* Build configuration list for PBXNativeTarget "XGVideoToGIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D4533C1ABBF43E00A906C8 /* Debug */,
+				E9D4533D1ABBF43E00A906C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D4530D1ABBF43D00A906C8 /* Project object */;
+}
